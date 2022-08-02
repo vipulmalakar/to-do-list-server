@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <!-- link for title icon -->
+    <link rel="icon" href="list.png">
+    <!-- link for css stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- link for font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- link for Gooogle Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- link for bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  </head> -->
+    </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="nav">
+          <div>
+            <h1><i class="fa-solid fa-clipboard-check"></i>To-Do List</h1>
+          </div>
+          <div class="input-box">
+            <!-- Bootstrap Classes: Commented Because Bootstrap Cdn Not Working Properly -->
+            <!-- <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="I need to..." aria-label="Input" aria-describedby="button-addon2">
+              <button class="btn btn-dark" type="button" id="button-addon2" onclick="addItem()">Submit</button>
+            </div> -->
+              <input type="text" class="form-control" placeholder="I need to..."><button class="button" onclick="addItem()">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="to-do-items"></div>
+      </div>
+    </section>
+    <!-- Copyright Footer -->
+    <footer id="copyright">Copyright &copy; Vipul Malakar. All rights reserved.</footer>
+    <!-- <div id="copyright">Copyright &copy; Vipul Malakar. All rights reserved.</div> -->
+    <script src="index.js" charset="utf-8"></script>  
+    <!-- link for jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </body>
+</html>
